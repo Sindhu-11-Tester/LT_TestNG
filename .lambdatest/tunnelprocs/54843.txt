@@ -1,0 +1,1 @@
+{"status":"SUCCESS","data":{"id":3430820,"localProxyPort":"54848","tunnelName":"b99415fc-c6af-4364-8743-f7cf7e7c4f31","environment":"prod","version":"3.2.8","mode":"ssh","sshConnType":"over_22"}}

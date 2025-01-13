@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" parallel="tests" name="Failed suite [LT_TestNG]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Edge on macOS Ventura(failed)">
+    <parameter name="browserVersion" value="127.0"/>
+    <parameter name="access_key" value="tNvqwErpsu8ScMQvMfImXS0TrV9RhEN1CKb2oFIeNKeLL4LemA"/>
+    <parameter name="platform" value="macOS Ventura"/>
+    <parameter name="username" value="sindhutaiashokshinde"/>
+    <classes>
+      <class name="TestNgPKG.mac_Edge_TNg">
+        <methods>
+          <include name="Scenario1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNgPKG.mac_Edge_TNg -->
+    </classes>
+  </test> <!-- Edge on macOS Ventura(failed) -->
+  <test thread-count="5" parallel="tests" name="Chrome on Windows 10(failed)">
+    <parameter name="browserVersion" value="128.0"/>
+    <parameter name="access_key" value="tNvqwErpsu8ScMQvMfImXS0TrV9RhEN1CKb2oFIeNKeLL4LemA"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="username" value="sindhutaiashokshinde"/>
+    <classes>
+      <class name="TestNgPKG.window_10_Chrome_TNg">
+        <methods>
+          <include name="Scenario1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNgPKG.window_10_Chrome_TNg -->
+    </classes>
+  </test> <!-- Chrome on Windows 10(failed) -->
+  <test thread-count="5" parallel="tests" name="Internet Explorer on Windows 10(failed)">
+    <parameter name="browserVersion" value="11"/>
+    <parameter name="access_key" value="tNvqwErpsu8ScMQvMfImXS0TrV9RhEN1CKb2oFIeNKeLL4LemA"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="username" value="sindhutaiashokshinde"/>
+    <classes>
+      <class name="TestNgPKG.windows_10_IE_TNg">
+        <methods>
+          <include name="Scenario3"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Scenario1"/>
+        </methods>
+      </class> <!-- TestNgPKG.windows_10_IE_TNg -->
+    </classes>
+  </test> <!-- Internet Explorer on Windows 10(failed) -->
+  <test thread-count="5" parallel="tests" name="Firefox on Windows 11(failed)">
+    <parameter name="browserVersion" value="130"/>
+    <parameter name="access_key" value="tNvqwErpsu8ScMQvMfImXS0TrV9RhEN1CKb2oFIeNKeLL4LemA"/>
+    <parameter name="platform" value="Windows 11"/>
+    <parameter name="username" value="sindhutaiashokshinde"/>
+    <classes>
+      <class name="TestNgPKG.window_10_FFox_TNg">
+        <methods>
+          <include name="setUp"/>
+          <include name="Scenario1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNgPKG.window_10_FFox_TNg -->
+    </classes>
+  </test> <!-- Firefox on Windows 11(failed) -->
+</suite> <!-- Failed suite [LT_TestNG] -->
